@@ -1,0 +1,52 @@
+.main-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.login-container, .home-container {
+    display: inline-block;
+    float: none;
+}
+
+.home-container td {
+    width: 25%;
+}
+
+.home-container table {
+    width: 100%;
+}
+
+#users-connected {
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0% {
+        background-color: #00c300;
+    }
+    50% {
+        background-color: #00ff00;
+    }
+    100% {
+        background-color: #00c300;
+    }
+}
+
+/* Standard syntax */
+@keyframes example {
+    0% {
+        background-color: #00c300;
+    }
+    50% {
+        background-color: #00ff00;
+    }
+    100% {
+        background-color: #00c300;
+    }
+}
